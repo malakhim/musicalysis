@@ -1,0 +1,109 @@
+/* Fonts */
+/* For use across entire site*/
+@import "https://fonts.googleapis.com/css?family=Devonshire";
+@import "https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700";
+/* Colors */
+/* System defaults*/
+::selection {
+  background-color: #1abc9c;
+  color: white; }
+
+::-moz-selection {
+  background-color: #1abc9c;
+  color: white; }
+
+/* Site defaults */
+body {
+  background-color: white;
+  font: 16px/20px "Josefin Sans";
+  color: #252525; }
+
+a {
+  color: #003399;
+  background-color: transparent;
+  font-weight: normal; }
+
+/* Bootstrap overrides */
+.btn-success {
+  background-color: #1abc9c;
+  background-image: none;
+  border: 0; }
+  .btn-success:hover {
+    background-color: #1fe1ba;
+    border: 0;
+    background-image: none; }
+
+/* Sections */
+/* Header files */
+/* Logo */
+#logo {
+  font-family: "Devonshire";
+  color: white;
+  display: inline;
+  font-size: 2em; }
+  #logo:hover {
+    color: white; }
+
+/* Navbar */
+.navbar {
+  background-color: #2c3e50;
+  background-image: none;
+  border: 0; }
+  .navbar .navbar-nav .active a {
+    background-color: transparent;
+    background-image: none;
+    color: #1abc9c; }
+    .navbar .navbar-nav .active a:hover {
+      background-color: transparent;
+      background-image: none;
+      color: #1abc9c; }
+    .navbar .navbar-nav .active a:focus {
+      color: white;
+      background-color: transparent;
+      background-image: none; }
+  .navbar .navbar-nav li a {
+    color: white; }
+    .navbar .navbar-nav li a:hover {
+      color: #1abc9c; }
+    .navbar .navbar-nav li a:focus {
+      color: white; }
+
+/* Header rules */
+header {
+  background-color: #2c3e50; }
+
+.body-container {
+  margin-top: 150px; }
+
+#ytplayer {
+  display: block;
+  margin: auto; }
+
+#notes-block {
+  width: 640px;
+  display: block;
+  height: 110px;
+  border: 1px solid #D0D0D0;
+  box-shadow: 0 0 8px #D0D0D0;
+  margin: auto;
+  margin-top: 10px;
+  padding: 3%; }
+  #notes-block span {
+    position: absolute;
+    width: 600px;
+    display: none; }
+
+#blurb {
+  width: 640px;
+  display: block;
+  border: 1px solid #D0D0D0;
+  box-shadow: 0 0 8px #D0D0D0;
+  margin: auto;
+  margin-top: 10px;
+  padding: 3%; }
+  #blurb #intro {
+    font-weight: 700; }
+  #blurb .highlighted-text {
+    font-weight: 700; }
+
+/*# sourceMappingURL=main.css.map */

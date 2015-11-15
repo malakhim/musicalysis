@@ -1,0 +1,45 @@
+.body-container{
+	margin-top: 150px;
+}
+
+
+#ytplayer{
+	display: block;
+	margin: auto;
+}
+
+#notes-block{
+	width: 640px;
+	display: block;
+	height: 110px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+	margin: auto;
+	margin-top: 10px;
+	padding: 3%;
+
+	span{
+		position:absolute;
+		width: 600px;
+		display: none;
+	}
+}
+
+#blurb{
+	width: 640px;
+    display: block;
+    border: 1px solid #D0D0D0;
+    box-shadow: 0 0 8px #D0D0D0;
+    margin: auto;
+    margin-top: 10px;
+    padding: 3%;
+
+    #intro{
+    	font-weight: 700;
+    }
+
+    .highlighted-text{
+    	font-weight: 700;	
+    }
+}
+

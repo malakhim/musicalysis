@@ -1,0 +1,57 @@
+/* Fonts */
+	/* For use across entire site*/
+$font-family-text: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+@import "https://fonts.googleapis.com/css?family=Devonshire";
+@import "https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700";
+
+$logo-font: 'Devonshire';
+$main-font: 'Josefin Sans';
+
+/* Colors */
+$header-bg-color: #2c3e50;
+$highlight-text-color: #e74c3c;
+$standard-text-color: #252525;
+$btn-bg-color: #1abc9c;
+$btn-bg-color-hover: #1fe1ba;
+
+/* System defaults*/
+::selection{
+	background-color: $btn-bg-color;
+	color: white;
+}
+::-moz-selection {
+	background-color: $btn-bg-color;
+	color: white;
+}
+
+/* Site defaults */
+body{
+	background-color: white;
+	font: 16px/20px $main-font;
+	color: $standard-text-color;
+}
+
+a{
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+/* Bootstrap overrides */
+.btn-success{
+	background-color: $btn-bg-color;
+	background-image: none;
+	border: 0;
+	
+	&:hover{
+		background-color: $btn-bg-color-hover;
+		border: 0;
+		background-image: none;
+	}
+}
+
+/* Sections */
+@import "header/header.scss";
+@import "pages/view_page.scss";
+// @import "footer/"

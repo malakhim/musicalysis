@@ -1,0 +1,13 @@
+/* Logo */
+$logo-font-size: 2em;
+
+#logo{
+	font-family:$logo-font;
+	color: white;
+	display: inline;
+	font-size: $logo-font-size;
+
+	&:hover{
+		color: white;
+	}
+}
