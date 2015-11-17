@@ -5,14 +5,14 @@
 	top: 0;
 	bottom: 0;
 	width:100%;
-	background-image: url("/assets/images/Home background.jpg");
+	background-image: url("/assets/images/Homebackground3.jpg");
 }
 
 .main_title{
 	font: 6em $logo-font;
 	margin: auto;
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 15%;
 }
 
 .main_text {
@@ -31,12 +31,26 @@
 
 .CTA_btn.left {
 	float: left;
-	padding-top: 4%;
-	padding-left: 32%;
+	height: 60px;
+	width: 300px;
+	margin-left: 33.5%;
+	margin-top:1%;
+	margin-bottom: 1%;
+	padding-top: 0.4%;
+	background-color: $btn-bg-color;
+	color: #fff;
+	text-align: center;
 }
-
+	
 .CTA_btn.right {
 	float: right;
-	padding-top: 4%;
-	padding-right: 32%;
+	height: 60px;
+	width: 300px;
+	margin-right: 33.5%;
+	margin-top:1%;
+	margin-bottom: 1%;
+	padding-top: 0.4%;
+	background-color: $btn-bg-color;
+	color: #fff;
+	text-align: center;
 }
