@@ -1,4 +1,6 @@
 <?php // Title of page. NOTE: THIS IS REQUIRED ?>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');?>
 <input type="hidden" name="title" value="<?php echo $piece?>"/>
 
 

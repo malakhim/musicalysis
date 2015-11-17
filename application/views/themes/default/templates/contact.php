@@ -1,1 +1,1 @@
-contact.php
+<input type="hidden" name="title" value="Contact"/>
