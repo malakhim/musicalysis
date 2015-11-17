@@ -1,0 +1,42 @@
+.main_container {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width:100%;
+	background-image: url("/assets/images/Home background.jpg");
+}
+
+.main_title{
+	font: 6em $logo-font;
+	margin: auto;
+	text-align: center;
+	padding-top: 10%;
+}
+
+.main_text {
+	font: 3em $main-font;
+	text-align: center;
+}
+
+.bold_text {
+	font-weight: 700;
+}
+
+.main_CTA {
+	display: inline;
+	font-size: 2em
+}
+
+.CTA_btn.left {
+	float: left;
+	padding-top: 4%;
+	padding-left: 32%;
+}
+
+.CTA_btn.right {
+	float: right;
+	padding-top: 4%;
+	padding-right: 32%;
+}
