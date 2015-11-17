@@ -75,7 +75,7 @@
 			    }
 
 				$init_data = array(
-					'title' => 'Welcome to Musicalysis Web App',
+					'template_name' => $body_view,
 					'main_js' => DEFAULT_ASSETS_DIRECTORY.'js/main.js',
 					'main_css' => DEFAULT_ASSETS_DIRECTORY.'css/main.css',
 					'header_vars' => array(

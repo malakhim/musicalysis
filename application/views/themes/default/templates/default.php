@@ -1,8 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');?>
 <!DOCTYPE html>
-<html lang="en">
- 
+<html lang="en" class="<?php echo $template_name?>">
     <head>
     	<meta charset="utf-8">
         <title><?php echo $title; ?></title>
