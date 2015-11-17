@@ -23,7 +23,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://bw.musicnotes.com';
+if(strpos($_SERVER['SERVER_NAME'],'bw') !== FALSE)
+	$config['base_url'] = 'http://bw.musicnotes.com';
+elseif(strpos($_SERVER['SERVER_NAME'],'ma') !== FALSE)
+	$config['base_url'] = 'http://ma.musicalysis.com';
 
 /*
 |--------------------------------------------------------------------------

@@ -7,6 +7,8 @@ $font-family-text: source-sans-pro, 'Helvetica Neue', Helvetica, Arial, sans-ser
 
 $logo-font: 'Devonshire';
 $main-font: 'Josefin Sans';
+$default-font-size: 16px;
+$large-font-size: 60px;
 
 /* Colors */
 $header-bg-color: #2c3e50;
@@ -28,7 +30,7 @@ $btn-bg-color-hover: #1fe1ba;
 /* Site defaults */
 body{
 	background-color: white;
-	font: 16px/20px $main-font;
+	font: $default-font-size $main-font;
 	color: $standard-text-color;
 }
 
@@ -54,4 +56,5 @@ a{
 /* Sections */
 @import "header/header.scss";
 @import "pages/view_page.scss";
+@import "pages/home.scss";
 // @import "footer/"
