@@ -5,11 +5,11 @@
 /* Colors */
 /* System defaults*/
 ::selection {
-  background-color: #1abc9c;
+  background-color: #16A085;
   color: white; }
 
 ::-moz-selection {
-  background-color: #1abc9c;
+  background-color: #16A085;
   color: white; }
 
 /* Site defaults */
@@ -152,7 +152,7 @@ a {
   height: 70px;
   width: 320px;
   margin-left: 32%;
-  margin-top: 4%;
+  margin-top: 2%;
   margin-bottom: 1%;
   padding-top: 0.7%;
   background-color: #1abc9c;
@@ -164,7 +164,7 @@ a {
   height: 70px;
   width: 320px;
   margin-right: 32%;
-  margin-top: 4%;
+  margin-top: 2%;
   margin-bottom: 1%;
   padding-top: 0.7%;
   background-color: #1abc9c;
