@@ -5,11 +5,11 @@
 /* Colors */
 /* System defaults*/
 ::selection {
-  background-color: #16A085;
+  background-color: #1abc9c;
   color: white; }
 
 ::-moz-selection {
-  background-color: #16A085;
+  background-color: #1abc9c;
   color: white; }
 
 /* Site defaults */
@@ -120,7 +120,7 @@ a {
   #blurb .highlighted-text {
     font-weight: 700; }
 
-.main_container {
+.home_main_container {
   position: absolute;
   left: 0;
   right: 0;
@@ -169,6 +169,18 @@ a {
   padding-top: 0.7%;
   background-color: #1abc9c;
   color: #fff;
+  text-align: center; }
+
+.main_container {
+  margin: auto;
+  text-align: center;
+  padding-top: 15%;
+  text-align: auto; }
+
+.red_highlight_text {
+  text-align: center; }
+
+.devonshire_heading {
   text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
