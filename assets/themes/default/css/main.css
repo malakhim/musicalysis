@@ -15,7 +15,7 @@
 /* Site defaults */
 body {
   background-color: white;
-  font: 16px "Josefin Sans";
+  font: 24px "Josefin Sans";
   color: #252525; }
 
 a {
@@ -73,10 +73,10 @@ a {
 /*Bootstrap overrides*/
 .nav.navbar-nav {
   padding-top: 12px;
-  font-size: 1.5em; }
+  font-size: 1em; }
 
 #logo {
-  font-size: 3em;
+  font-size: 2em;
   padding-top: 28px; }
 
 .btn {
@@ -136,7 +136,7 @@ a {
   padding-top: 15%; }
 
 .main_text {
-  font: 3em "Josefin Sans";
+  font: 2em "Josefin Sans";
   text-align: center;
   margin-top: 1%; }
 
@@ -173,14 +173,22 @@ a {
 
 .main_container {
   margin: auto;
-  text-align: center;
-  padding-top: 15%;
-  text-align: auto; }
+  text-align: center; }
 
 .red_highlight_text {
-  text-align: center; }
+  text-align: center;
+  font: 2em "Josefin Sans";
+  color: #e74c3c; }
 
 .devonshire_heading {
-  text-align: center; }
+  text-align: center;
+  font: 3em "Devonshire";
+  color: #e74c3c;
+  margin-bottom: -2%; }
+
+.about_body_text {
+  font: 1em "Josefin Sans";
+  padding-top: 2%;
+  padding-bottom: 2%; }
 
 /*# sourceMappingURL=main.css.map */

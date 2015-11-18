@@ -1,14 +1,23 @@
 .main_container {
 	margin: auto;
 	text-align: center;
-	padding-top: 15%;
-	text-align: auto;
 }
 
 .red_highlight_text {
 	text-align: center;
+	font: 2em $main-font;
+	color: #e74c3c;
 }
 
-.devonshire_heading{
+.devonshire_heading {
 	text-align: center;
+	font: 3em $logo-font;
+	color: #e74c3c;
+	margin-bottom: -2%;
+}
+
+.about_body_text {
+	font: 1em $main-font;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
