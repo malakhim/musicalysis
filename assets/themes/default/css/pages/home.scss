@@ -18,6 +18,7 @@
 .main_text {
 	font: 3em $main-font;
 	text-align: center;
+	margin-top: 1%;
 }
 
 .bold_text {
@@ -31,12 +32,12 @@
 
 .CTA_btn.left {
 	float: left;
-	height: 60px;
-	width: 300px;
-	margin-left: 33.5%;
-	margin-top:1%;
+	height: 70px;
+	width: 320px;
+	margin-left: 32%;
+	margin-top:4%;
 	margin-bottom: 1%;
-	padding-top: 0.4%;
+	padding-top: 0.7%;
 	background-color: $btn-bg-color;
 	color: #fff;
 	text-align: center;
@@ -44,12 +45,12 @@
 	
 .CTA_btn.right {
 	float: right;
-	height: 60px;
-	width: 300px;
-	margin-right: 33.5%;
-	margin-top:1%;
+	height: 70px;
+	width: 320px;
+	margin-right: 32%;
+	margin-top:4%;
 	margin-bottom: 1%;
-	padding-top: 0.4%;
+	padding-top: 0.7%;
 	background-color: $btn-bg-color;
 	color: #fff;
 	text-align: center;

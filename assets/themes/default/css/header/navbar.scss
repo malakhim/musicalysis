@@ -1,8 +1,11 @@
 /* Navbar */
+
+/*top links, search bar, navbar(for now)*/
 .navbar{
 	background-color: $header-bg-color;
 	background-image: none;
 	border: 0;
+	height:80px;
 	.navbar-nav{
 		.active{
 			a{
@@ -35,4 +38,23 @@
 			}
 		}
 	}
+}
+
+/*Bootstrap overrides*/
+.nav.navbar-nav {
+	padding-top: 12px;
+	font-size: 1.5em;
+}
+
+#logo {
+	font-size: 3em;
+	padding-top: 28px;
+}
+
+.btn {
+	font-size: 16px;
+}
+
+.form-control {
+	font-size: 18px;
 }
