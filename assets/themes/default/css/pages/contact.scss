@@ -1,0 +1,25 @@
+.form-control {
+
+}
+
+form.contact_form .btn {
+	width: 320px;
+	height: 70px;
+	background-color: $btn-bg-color;
+	font: 1em $main-font;
+	color: #fff;
+
+	&:active {
+		background-color: #16A287;
+	}
+}
+
+#submit_button:hover {
+	background-color: $btn-bg-color-hover;
+}
+
+#submit_button:active {
+	box-shadow: none;
+	background-color: #16A287;
+}
+

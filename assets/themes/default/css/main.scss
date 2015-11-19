@@ -16,6 +16,7 @@ $highlight-text-color: #e74c3c;
 $standard-text-color: #252525;
 $btn-bg-color: #1abc9c;
 $btn-bg-color-hover: #1fe1ba;
+$btn-bg-color-active: #16A287;
 
 /* System defaults*/
 ::selection{
@@ -38,6 +39,10 @@ a{
 	color: #003399;
 	background-color: transparent;
 	font-weight: normal;
+
+	&:hover {
+		text-decoration: none;
+	}
 }
 
 /* Bootstrap overrides */
@@ -51,6 +56,14 @@ a{
 		border: 0;
 		background-image: none;
 	}
+
+	&:active{
+		background-color: $btn-bg-color-hover;
+		border: 0;
+		background-image: none;
+	}
+
+	
 }
 
 /* Sections */
@@ -58,4 +71,5 @@ a{
 @import "pages/view_page.scss";
 @import "pages/home.scss";
 @import "pages/about.scss";
+@import "pages/contact.scss"
 // @import "footer/"
