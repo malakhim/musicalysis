@@ -1,5 +1,7 @@
 .DS_Store
 
+application/config/database.php
+
 application/cache/*
 assets/themes/default/css/.sass-cache/*
 !application/cache/index.html
