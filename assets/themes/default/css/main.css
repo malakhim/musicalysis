@@ -247,6 +247,18 @@ a {
   outline: none;
   outline-offset: 0px; }
 
+table.table-pieces tbody tr:hover {
+  cursor: pointer;
+  background-color: rgba(26, 188, 156, 0.26); }
+table.table-pieces tbody tr td {
+  padding-left: 0;
+  padding-right: 0; }
+  table.table-pieces tbody tr td a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: black; }
+
 .small-form-group .form-control {
   width: 400px; }
 
