@@ -13,9 +13,9 @@
 		<?php if (!empty($pieces)):?>
 			<?php foreach($pieces as $p):?>
 				<tr>
-					<td><a href="/piece/<?php echo $p->composer_seo."/".$p->piece_seo?>"><?php echo $p->piece_title?></a></td>
-					<td><a href="/piece/<?php echo $p->composer_seo."/".$p->piece_seo?>"><?php echo $p->composer_surname.", ".$p->composer_firstname?></a></td>
-					<td><a href="/piece/<?php echo $p->composer_seo."/".$p->piece_seo?>"><?php echo $p->piece_year?></a></td>
+					<td><a href="/pieces/playing/<?php echo $p->composer_seo."/".$p->piece_seo?>"><?php echo $p->piece_title?></a></td>
+					<td><a href="/piece/playing/<?php echo $p->composer_seo."/".$p->piece_seo?>"><?php echo $p->composer_surname.", ".$p->composer_firstname?></a></td>
+					<td><a href="/piece/playing/<?php echo $p->composer_seo."/".$p->piece_seo?>"><?php echo $p->piece_year?></a></td>
 				</tr>
 			<?php endforeach?>
 		<?php else:?>

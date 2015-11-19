@@ -3,9 +3,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class piece extends CI_Controller {
 		
-	public function index()
+	public function index($composer,$piece)
 	{
-        $this->load->model('pieces');
-		$this->template->load('default','piece');
+ 
 	}
+
+	public function playing($composer,$piece)
 }
