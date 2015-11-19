@@ -1,5 +1,5 @@
 <input type="hidden" name="title" value="Contact"/>
-<div class="main_container">
+<div class="contact_main_container">
 	<div class="red_highlight_text">
 		Have something to say? We’d love to hear from you.
 	</div>

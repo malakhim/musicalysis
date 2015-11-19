@@ -135,7 +135,7 @@ a {
   top: 0;
   bottom: 0;
   width: 100%;
-  background-image: url("/assets/images/Homebackground3.jpg");
+  background-image: url("/assets/images/Homebackground4.jpg");
   background-repeat: no-repeat;
   background-size: 100%; }
 
@@ -196,11 +196,23 @@ a {
 .CTA_btn:active {
   background-color: #16A287; }
 
-.main_container {
-  margin: auto; }
+.about_main_container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  background-image: url("/assets/images/earbud_headpones.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%; }
 
-.about {
-  text-align: center; }
+.about_text {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%; }
 
 .red_highlight_text {
   font: 2em "Josefin Sans";
@@ -209,7 +221,10 @@ a {
 .devonshire_heading {
   font: 3.4em "Devonshire";
   color: #e74c3c;
-  margin-bottom: -2%; }
+  margin-bottom: -2%;
+  margin: auto;
+  text-align: center;
+  padding-top: 8%; }
 
 .about_body_text {
   font: 1em "Josefin Sans";
