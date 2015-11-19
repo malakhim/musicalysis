@@ -197,16 +197,16 @@ a {
   background-color: #16A287; }
 
 .main_container {
-  margin: auto;
+  margin: auto; }
+
+.about {
   text-align: center; }
 
 .red_highlight_text {
-  text-align: center;
   font: 2em "Josefin Sans";
   color: #e74c3c; }
 
 .devonshire_heading {
-  text-align: center;
   font: 3.4em "Devonshire";
   color: #e74c3c;
   margin-bottom: -2%; }
@@ -231,6 +231,9 @@ a {
   text-decoration: none;
   outline: none;
   outline-offset: 0px; }
+
+.small-form-group .form-control {
+  width: 400px; }
 
 form.contact_form .btn {
   width: 320px;
