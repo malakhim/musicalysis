@@ -23,3 +23,7 @@ form.contact_form .btn {
 	background-color: #16A287;
 }
 
+.contact_form .btn:focus {
+	outline: none;
+	outline-offset: 0px;
+}

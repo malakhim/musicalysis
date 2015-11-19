@@ -160,6 +160,9 @@ a {
   .main_CTA:active {
     background-color: #16A287; }
 
+.CTA_btn {
+  border-radius: 4px; }
+
 .CTA_btn.left {
   float: left;
   height: 70px;
@@ -242,5 +245,9 @@ form.contact_form .btn {
 #submit_button:active {
   box-shadow: none;
   background-color: #16A287; }
+
+.contact_form .btn:focus {
+  outline: none;
+  outline-offset: 0px; }
 
 /*# sourceMappingURL=main.css.map */
