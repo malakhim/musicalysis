@@ -34,10 +34,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                       <ul class="nav navbar-nav">
-                        <li><a href="/"><?php echo $this->lang->line('home')?><span class="sr-only">(current)</span></a></li>
-                        <li><a href="/about"><?php echo $this->lang->line('about')?></a></li>
-                       <li><a href="/pieces"><?php echo $this->lang->line('pieces')?></a></li>
-                       <li><a href="/contact"><?php echo $this->lang->line('contact')?></a></li>
+                      <li class="<?php if(strtolower($template_name) === strtolower($this->lang->line('home'))):echo 'active';endif?>"><a href="/"><?php echo $this->lang->line('home')?><span class="sr-only">(current)</span></a></li>
+                        <li class="<?php if(strtolower($template_name) === strtolower($this->lang->line('about'))):echo 'active';endif?>"><a href="/about" ><?php echo $this->lang->line('about')?></a></li>
+                       <li class="<?php if(strtolower($template_name) === strtolower($this->lang->line('pieces')) || strtolower($template_name) === strtolower($this->lang->line('piece'))):echo 'active';endif?>"><a href="/pieces"><?php echo $this->lang->line('pieces')?></a></li>
+                       <li class="<?php if(strtolower($template_name) === strtolower($this->lang->line('contact'))):echo 'active';endif?>"><a href="/contact"><?php echo $this->lang->line('contact')?></a></li>
                       </ul>
                       <ul class="nav navbar-nav navbar-right">
                          <form class="navbar-form navbar-left" role="search">
