@@ -277,6 +277,8 @@ table.table-pieces tbody tr td {
     height: 100%;
     width: 100%;
     color: black; }
+    table.table-pieces tbody tr td a:focus {
+      text-decoration: none; }
 
 .small-form-group .form-control {
   width: 400px; }

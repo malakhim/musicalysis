@@ -12,6 +12,9 @@ table.table-pieces{
 				height: 100%;
 				width: 100%;
 				color: black;
+				&:focus{
+					text-decoration: none;
+				}
 			}
 		}
 	}
