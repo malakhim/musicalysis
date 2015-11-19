@@ -12,6 +12,11 @@ form.contact_form .btn {
 	&:active {
 		background-color: #16A287;
 	}
+
+	&:focus {
+	outline: none;
+	outline-offset: 0px;
+	}
 }
 
 #submit_button:hover {
@@ -23,7 +28,7 @@ form.contact_form .btn {
 	background-color: #16A287;
 }
 
-.contact_form .btn:focus {
-	outline: none;
-	outline-offset: 0px;
-}
+// .contact_form button:focus {
+// 	outline: none;
+// 	outline-offset: 0px;
+// }

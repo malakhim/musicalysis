@@ -3,6 +3,8 @@
 @import "https://fonts.googleapis.com/css?family=Devonshire";
 @import "https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,700";
 /* Colors */
+/*#21CEAD*/
+/*#27E1BA*/
 /* System defaults*/
 ::selection {
   background-color: #1abc9c;
@@ -31,11 +33,11 @@ a {
   background-image: none;
   border: 0; }
   .btn-success:hover {
-    background-color: #1fe1ba;
+    background-color: #1FE1BA;
     border: 0;
     background-image: none; }
   .btn-success:active {
-    background-color: #1fe1ba;
+    background-color: #1FE1BA;
     border: 0;
     background-image: none; }
 
@@ -156,7 +158,7 @@ a {
   font-size: 1.5em; }
   .main_CTA:hover {
     text-decoration: none;
-    background-color: #1fe1ba; }
+    background-color: #1FE1BA; }
   .main_CTA:active {
     background-color: #16A287; }
 
@@ -188,7 +190,7 @@ a {
   text-align: center; }
 
 .CTA_btn:hover {
-  background-color: #1fe1ba;
+  background-color: #1FE1BA;
   text-decoration: none; }
 
 .CTA_btn:active {
@@ -238,16 +240,15 @@ form.contact_form .btn {
   color: #fff; }
   form.contact_form .btn:active {
     background-color: #16A287; }
+  form.contact_form .btn:focus {
+    outline: none;
+    outline-offset: 0px; }
 
 #submit_button:hover {
-  background-color: #1fe1ba; }
+  background-color: #1FE1BA; }
 
 #submit_button:active {
   box-shadow: none;
   background-color: #16A287; }
-
-.contact_form .btn:focus {
-  outline: none;
-  outline-offset: 0px; }
 
 /*# sourceMappingURL=main.css.map */
