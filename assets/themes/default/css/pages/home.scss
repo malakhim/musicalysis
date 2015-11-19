@@ -5,9 +5,8 @@
 	top: 0;
 	bottom: 0;
 	width: 100%;
-	height: 100%;
-	// height: 100%;
-	// overflow: hidden;
+	// height: auto;
+	overflow: auto;
 	background-image: url("/assets/images/Homebackground4.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -26,6 +25,38 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.main-content {
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 7%;
+}
+
+@media (max-width: 1600px) {
+
+}
+
+// @media (max-height:620px) {
+// 	.main-content {
+// 	overflow: scroll;
+// }
+// }
+
+// @media (max-height:620px) {
+// 	.main-content {
+// 	width: 60%;
+// 	margin: 0 auto;
+// 	padding-top: 3%;
+// }
+// }
+
+// @media (max-height:555px) {
+// 	.main-content {
+// 	width: 60%;
+// 	margin: 0 auto;
+// 	padding-top: 0%;
+// }
+// }
 
 .main_title{
 	font: 4em $logo-font;
@@ -65,7 +96,7 @@
 .CTA_btn.left {
 	float: left;
 	height: 70px;
-	width: 320px;
+	width: 17%;
 	margin-left: 32%;
 	margin-top:2%;
 	margin-bottom: 1%;
@@ -78,7 +109,7 @@
 .CTA_btn.right {
 	float: right;
 	height: 70px;
-	width: 320px;
+	width: 17%;
 	margin-right: 32%;
 	margin-top:2%;
 	margin-bottom: 1%;
