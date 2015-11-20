@@ -72,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 if(strpos($_SERVER['SERVER_NAME'],'bw') !== FALSE){
 	$active_group = 'local';
-}elseif(strpos($_SERVER['SERVER_NAME'],'musicalysis.brystore') !== FALSE){
+}elseif(strpos($_SERVER['SERVER_NAME'],'musicalysis.com') !== FALSE){
 	$active_group = 'hostgator';
 }	
 $query_builder = TRUE;
