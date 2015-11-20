@@ -110,7 +110,7 @@ a {
 #notes-block {
   width: 640px;
   display: block;
-  height: 110px;
+  height: 216px;
   border: 1px solid #D0D0D0;
   box-shadow: 0 0 8px #D0D0D0;
   margin: auto;
@@ -291,6 +291,20 @@ a {
   text-decoration: none;
   outline: none;
   outline-offset: 0px; }
+
+table.table-pieces tbody tr:hover {
+  cursor: pointer;
+  background-color: rgba(26, 188, 156, 0.26); }
+table.table-pieces tbody tr td {
+  padding-left: 0;
+  padding-right: 0; }
+  table.table-pieces tbody tr td a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: black; }
+    table.table-pieces tbody tr td a:focus {
+      text-decoration: none; }
 
 .small-form-group .form-control {
   width: 400px; }

@@ -1,0 +1,21 @@
+table.table-pieces{
+	tbody tr{
+		&:hover{
+			cursor:pointer;
+			background-color: rgba(26, 188, 156, 0.26);
+		}
+		td{
+			padding-left: 0;
+			padding-right: 0;
+			a{
+				display:block;
+				height: 100%;
+				width: 100%;
+				color: black;
+				&:focus{
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

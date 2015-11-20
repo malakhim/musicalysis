@@ -1,13 +1,5 @@
 var player;
 
-$(document).ready(function(){
-	// Automagically add 
- 	$('ul.navbar-nav').children().each(function(){
- 		if(window.location.pathname.indexOf($(this).find('a').attr('href')) > -1){
- 			$(this).addClass('active');
- 		}
- 	});
-});
 // Load the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
 tag.src = "https://www.youtube.com/player_api";
@@ -41,13 +33,24 @@ function onPlayerStateChange(event) {
 	    // Does same thing as showNoteBlock, except sets noteEndTime for timeoutDuration calculations (which needs to be done both inside recursive loop in setTimeout and outside it)
 	    // FIXME: Could possibly be done with a prototype function
 		$('#notes-block').children().each(function(){
+			// $(this).parent().height(176);
+			// Show note
 			if(currentTime >= $(this).attr('data-start-time') && currentTime < $(this).attr('data-end-time')){
 				$(this).fadeIn('slow');
 				noteEndTime = $(this).attr('data-end-time');
+				var heightval = $(this).height() + 80;
+
+				// $(this).parent().animate({height:heightval},200);
+			}else if(currentTime < $(this).next().attr('data-start-time') && currentTime >= $(this).attr('data-end-time')){
+				// Set delay to period of not showing note (in case time is currently between notes)
+				noteEndTime = $(this).next().attr('data-start-time');
+				// $(this).parent().animate({height:60},200);
 			}else{
+				// Hide note
 				$(this).fadeOut('slow');
 			}
 		});
+
 	    timeoutDuration = noteEndTime - currentTime;
 		setTimeout(function(){
 		    // Figure out which block to display and display it

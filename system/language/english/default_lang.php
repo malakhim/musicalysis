@@ -5,6 +5,7 @@
 	$lang['home'] = "Home";
 	$lang['about'] = "About";
 	$lang['pieces'] = "Pieces";
+	$lang['piece'] = "Piece";
 	$lang['contact'] = "Contact";
 	$lang['musicalysis'] = "Musicalysis";
 

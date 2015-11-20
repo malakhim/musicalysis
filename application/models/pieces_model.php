@@ -20,27 +20,32 @@ class Pieces_model extends CI_Model {
     		// Get all pieces
     		$query = $this->db->select('*')->from('pieces')->join('composers','pieces.composer_id = composers.composer_id')->get();
     	}else{
-    		// Deal with params later
+            $where_array = array(
+                'pieces.piece_seo' => $params['piece'],
+                'composers.composer_seo' => $params['composer'],
+            );
+    		// Get specific piece
+            $query = $this->db->select('*')->from('pieces')->join('timings','pieces.piece_id = timings.piece_id')->join('composers','pieces.composer_id = composers.composer_id')->where($where_array)->get();
     	}
         return $query->result();
     }
 
-    function insert_entry()
-    {
-        $this->title   = $_POST['title']; // please read the below note
-        $this->content = $_POST['content'];
-        $this->date    = time();
+    // function insert_entry()
+    // {
+    //     $this->title   = $_POST['title']; // please read the below note
+    //     $this->content = $_POST['content'];
+    //     $this->date    = time();
 
-        $this->db->insert('entries', $this);
-    }
+    //     $this->db->insert('entries', $this);
+    // }
 
-    function update_entry()
-    {
-        $this->title   = $_POST['title'];
-        $this->content = $_POST['content'];
-        $this->date    = time();
+    // function update_entry()
+    // {
+    //     $this->title   = $_POST['title'];
+    //     $this->content = $_POST['content'];
+    //     $this->date    = time();
 
-        $this->db->update('entries', $this, array('id' => $_POST['id']));
-    }
+    //     $this->db->update('entries', $this, array('id' => $_POST['id']));
+    // }
 
 }
