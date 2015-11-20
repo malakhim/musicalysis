@@ -28,7 +28,7 @@ if(strpos($_SERVER['SERVER_NAME'],'bw') !== FALSE)
 elseif(strpos($_SERVER['SERVER_NAME'],'ma') !== FALSE)
 	$config['base_url'] = 'http://ma.musicalysis.com';
 elseif(strpos($_SERVER['SERVER_NAME'],'musicalysis.brystore') !== FALSE){
-	$config['base_url'] = 'http://musicalysis.brystore.com/';
+	$config['base_url'] = 'http://musicalysis.brystore.com';
 }
 
 /*
