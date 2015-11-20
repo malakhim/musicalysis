@@ -27,6 +27,8 @@ if(strpos($_SERVER['SERVER_NAME'],'bw') !== FALSE)
 	$config['base_url'] = 'http://bw.musicnotes.com';
 elseif(strpos($_SERVER['SERVER_NAME'],'ma') !== FALSE)
 	$config['base_url'] = 'http://ma.musicalysis.com';
+elseif(strpos($_SERVER['SERVER_NAME'],'musicalysis') !== FALSE)
+	$config['base_url'] = 'http://musicalysis.com';
 
 /*
 |--------------------------------------------------------------------------
