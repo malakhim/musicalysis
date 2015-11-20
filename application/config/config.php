@@ -31,6 +31,9 @@ elseif(strpos($_SERVER['SERVER_NAME'],'brystore') !== FALSE && strpos($_SERVER['
 	$config['base_url'] = 'http://brystore.com/musicalysis';
 }
 
+var_dump(strpos($_SERVER['SERVER_NAME'],'brystore') !== FALSE);
+var_dump(strpos($_SERVER['REQUEST_URI'],'musicalysis') !== FALSE);
+die;
 /*
 |--------------------------------------------------------------------------
 | Index File
