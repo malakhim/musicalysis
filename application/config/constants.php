@@ -86,6 +86,6 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 // Template constants
 defined('VIEW_DIRECTORY') or define('VIEW_DIRECTORY','application/views/themes/');
-defined('ASSETS_DIRECTORY') or define('ASSETS_DIRECTORY','assets/themes/');
+defined('ASSETS_DIRECTORY') or define('ASSETS_DIRECTORY','/assets/themes/');
 defined('DEFAULT_VIEW_DIRECTORY') or define('DEFAULT_VIEW_DIRECTORY',VIEW_DIRECTORY.'default/');
 defined('DEFAULT_ASSETS_DIRECTORY') or define('DEFAULT_ASSETS_DIRECTORY',ASSETS_DIRECTORY.'default/');
