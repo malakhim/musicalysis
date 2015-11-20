@@ -28,12 +28,9 @@ if(strpos($_SERVER['SERVER_NAME'],'bw') !== FALSE)
 elseif(strpos($_SERVER['SERVER_NAME'],'ma') !== FALSE)
 	$config['base_url'] = 'http://ma.musicalysis.com';
 elseif(strpos($_SERVER['SERVER_NAME'],'brystore') !== FALSE && strpos($_SERVER['REQUEST_URI'],'musicalysis') !== FALSE){
-	$config['base_url'] = 'http://brystore.com/musicalysis';
+	$config['base_url'] = 'http://brystore.com/musicalysis/';
 }
 
-var_dump(strpos($_SERVER['SERVER_NAME'],'brystore') !== FALSE);
-var_dump(strpos($_SERVER['REQUEST_URI'],'musicalysis') !== FALSE);
-die;
 /*
 |--------------------------------------------------------------------------
 | Index File
