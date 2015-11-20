@@ -4,7 +4,6 @@ class home extends CI_Controller {
 		
 	public function index()
 	{
-		die("Test");
 		$this->load->helper('html');
 		$this->load->helper('url');
 		$this->template->load('default','home');
