@@ -58,3 +58,15 @@
 .form-control {
 	font-size: 18px;
 }
+
+@media (max-width: 993px) {
+	.navbar-header .navbar-brand#logo{
+	    margin-left: -20%;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-header .navbar-brand#logo{
+	    margin-left: 0px;
+	}
+}
