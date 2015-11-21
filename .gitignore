@@ -31,3 +31,5 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 *.scssc
 /application/config/email.php
+/assets/themes/default/css/main.css.map
+/assets/themes/default/css/main.css.map

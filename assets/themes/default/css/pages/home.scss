@@ -8,7 +8,7 @@
 	height:auto;
 	// height: auto;
 	overflow: auto;
-	background-image: url("/assets/images/Homebackground4.jpg"); 
+	background-image: url("/assets/images/Homebackground6.jpg"); 
 	background-repeat: no-repeat;
 	// background-attachment: fixed;
 	background-size: cover;
@@ -94,6 +94,8 @@
 .CTA_btn {
 	border-radius: 4px;
 	position: relative;
+	height: 70px;
+	width: 17%;
 }
 
 .CTA_btn.left {
@@ -136,7 +138,7 @@
 	display: inline;
 	position: absolute;
 	font-size: 1.5em;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	width: 100%;
@@ -169,15 +171,11 @@
 		margin-top: 1%;
 }
 
-	.CTA_btn.left {
-		font: 0.8em $main-font;
-	}
-
-	.CTA_btn.right {
+	.CTA_btn {
 	font: 0.8em $main-font;
 	}
 }
 
-@media (max-width: 993px) {
+@media (max-width: 991px) {
 
 }
