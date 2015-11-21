@@ -143,7 +143,7 @@ a {
   width: 100%;
   height: auto;
   overflow: auto;
-  background-image: url("/assets/images/Homebackground4.jpg");
+  background-image: url("/assets/images/Homebackground6.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -moz-background-size: cover;
@@ -171,7 +171,9 @@ a {
 
 .CTA_btn {
   border-radius: 4px;
-  position: relative; }
+  position: relative;
+  height: 70px;
+  width: 17%; }
 
 .CTA_btn.left {
   float: left;
@@ -210,7 +212,7 @@ a {
   display: inline;
   position: absolute;
   font-size: 1.5em;
-  top: 50%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%; }
@@ -232,10 +234,7 @@ a {
     text-align: center;
     margin-top: 1%; }
 
-  .CTA_btn.left {
-    font: 0.8em "Josefin Sans"; }
-
-  .CTA_btn.right {
+  .CTA_btn {
     font: 0.8em "Josefin Sans"; } }
 .about_main_container.about {
   position: absolute;
@@ -246,7 +245,7 @@ a {
   width: 100%;
   height: auto;
   overflow: auto;
-  background-image: url("/assets/images/earbud_headpones.jpg");
+  background-image: url("/assets/images/earbud_headphones2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -moz-background-size: cover;
