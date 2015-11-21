@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class contact extends CI_Controller {
+class Contact extends CI_Controller {
 		
 	/**
 	 * Index Page for this controller.
@@ -29,7 +29,6 @@ class contact extends CI_Controller {
 			$this->email->subject('Message from Musicalysis!');
 			$this->email->message($this->input->post('message'));
 			$data['success'] = $this->email->send();
-			echo $this->email->print_debugger();
 			$this->template->load('default','contact',$data);
 		}else{
 			$this->template->load('default','contact');
