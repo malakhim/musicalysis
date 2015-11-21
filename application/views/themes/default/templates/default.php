@@ -39,14 +39,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
                        <li class="<?php if(strtolower($template_name) === strtolower($this->lang->line('pieces')) || strtolower($template_name) === strtolower($this->lang->line('piece'))):echo 'active';endif?>"><a href="/pieces"><?php echo $this->lang->line('pieces')?></a></li>
                        <li class="<?php if(strtolower($template_name) === strtolower($this->lang->line('contact'))):echo 'active';endif?>"><a href="/contact"><?php echo $this->lang->line('contact')?></a></li>
                       </ul>
-                      <ul class="nav navbar-nav navbar-right">
+                      <!-- <ul class="nav navbar-nav navbar-right">
                          <form class="navbar-form navbar-left" role="search">
                         <div class="form-group">
                           <input type="text" class="form-control" placeholder="Search">
                         </div>
                         <button type="submit" class="btn btn-success"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                       </form>
-                      </ul>
+                      </ul> -->
                     </div><!-- /.navbar-collapse -->
                   </div><!-- /.container-fluid -->
                 </nav> 

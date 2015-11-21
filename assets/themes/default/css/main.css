@@ -99,12 +99,6 @@ a {
 .form-control {
   font-size: 18px; }
 
-@media (max-width: 993px) {
-  .navbar-header .navbar-brand#logo {
-    margin-left: -20%; } }
-@media (min-width: 768px) {
-  .navbar-header .navbar-brand#logo {
-    margin-left: 0px; } }
 /* Header rules */
 .body-container {
   margin-top: 150px; }
@@ -242,6 +236,30 @@ a {
 
   .CTA_btn {
     font: 0.8em "Josefin Sans"; } }
+@media (max-width: 1000px) {
+  .CTA_btn.left {
+    float: left;
+    height: 70px;
+    width: 20%;
+    margin-left: 29%; }
+
+  .CTA_btn.right {
+    float: right;
+    height: 70px;
+    width: 20%;
+    margin-right: 29%; } }
+@media (max-width: 768px) {
+  .CTA_btn.left {
+    float: left;
+    height: 70px;
+    width: 24%;
+    margin-left: 24%; }
+
+  .CTA_btn.right {
+    float: right;
+    height: 70px;
+    width: 24%;
+    margin-right: 24%; } }
 .about_main_container.about {
   position: absolute;
   left: 0;
@@ -271,10 +289,11 @@ a {
 .devonshire_heading {
   font: 3.4em "Devonshire";
   color: #e74c3c;
-  margin-bottom: -2%;
+  padding-bottom: 2%;
   margin: auto;
   text-align: center;
-  padding-top: 8%; }
+  padding-top: 8%;
+  line-height: 95%; }
 
 .about_body_text {
   font: 1em "Josefin Sans";
@@ -297,6 +316,18 @@ a {
   outline: none;
   outline-offset: 0px; }
 
+@media (max-width: 1366px) {
+  .devonshire_heading {
+    font: 3em "Devonshire";
+    padding-bottom: 2%;
+    margin: auto;
+    text-align: center;
+    padding-top: 12%;
+    line-height: 95%; }
+
+  .red_highlight_text {
+    font: 1.8em "Josefin Sans";
+    color: #e74c3c; } }
 table.table-pieces tbody tr:hover {
   cursor: pointer;
   background-color: rgba(26, 188, 156, 0.26); }

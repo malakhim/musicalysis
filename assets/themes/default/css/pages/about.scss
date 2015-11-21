@@ -31,10 +31,11 @@
 	// text-align: center;
 	font: 3.4em $logo-font;
 	color: #e74c3c;
-	margin-bottom: -2%;
+	padding-bottom: 2%;
 	margin: auto;
 	text-align: center;
 	padding-top: 8%;
+	line-height: 95%;
 }
 
 .about_body_text {
@@ -59,4 +60,22 @@
 	text-decoration: none;
 	outline: none;
 	outline-offset: 0px;
+}
+
+@media (max-width:1366px) {
+	.devonshire_heading {
+	// text-align: center;
+	font: 3em $logo-font;
+	padding-bottom: 2%;
+	margin: auto;
+	text-align: center;
+	padding-top: 12%;
+	line-height: 95%;
+	}
+
+	.red_highlight_text {
+	// text-align: center;
+	font: 1.8em $main-font;
+	color: #e74c3c;
+	}
 }

@@ -176,6 +176,34 @@
 	}
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
+	.CTA_btn.left {
+	float: left;
+	height: 70px;
+	width: 20%;
+	margin-left: 29%;
+	}
 
+	.CTA_btn.right {
+	float: right;
+	height: 70px;
+	width: 20%;
+	margin-right: 29%;
+	}
+}
+
+@media (max-width: 768px) {
+	.CTA_btn.left {
+	float: left;
+	height: 70px;
+	width: 24%;
+	margin-left: 24%;
+	}
+
+	.CTA_btn.right {
+	float: right;
+	height: 70px;
+	width: 24%;
+	margin-right: 24%;
+	}
 }
