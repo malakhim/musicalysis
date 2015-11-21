@@ -1,6 +1,6 @@
 <input type="hidden" name="title" value="Pieces"/>
 
-<div class="page-header"><h1><?php echo $this->lang->line('index')?> <small><?php echo $this->lang->line('pieces_instructions')?> (Maybe search bar here?)</small></h1></div>
+<div class="page-header"><h1><?php echo $this->lang->line('index')?></h1></div>
 
 <div class="table-responsive">
 	<table class="table table-hover table-pieces">

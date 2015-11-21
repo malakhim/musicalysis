@@ -1,5 +1,6 @@
 <input type="hidden" name="title" value="Contact"/>
 <script type="text/javascript" src="/assets/themes/default/js/contact.js"></script>
+
 <?php if(isset($success)):?>
 	<div class="alert alert-<?php if($success):?>success<?php else:?>danger<?php endif?> fade in">
 		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
@@ -31,15 +32,24 @@
 <form method="post" action="/contact" class="contact_form">
 	<div class="form-group col-sm-6 has-feedback">
 		<label for="contact_name"><?php echo ucfirst($this->lang->line('name'))?>:</label>
-		<input type="text" name="name" id="contact_name" placeholder="<?php echo ucfirst($this->lang->line('name'))?>" class="form-control"/>
+		<input type="text" name="name" id="contact_name" placeholder="<?php echo ucfirst($this->lang->line('name'))?>" class="form-control" value="<?php echo set_value('name')?>"/>
+		<span class="required-server"><?php echo form_error('name')?></span>
 	</div>
 	<div class="form-group col-sm-6 has-feedback">
 		<label for="contact_email"><?php echo ucfirst($this->lang->line('email'))?>:</label>
-		<input type="email" name="email" id="contact_email" placeholder="<?php echo ucfirst($this->lang->line('email'))?>" class="form-control"/>
+		<input type="email" name="email" id="contact_email" placeholder="<?php echo ucfirst($this->lang->line('email'))?>" class="form-control" value="<?php echo set_value('email')?>"/>
+		<span class="required-server"><?php echo form_error('email')?></span>
 	</div>
 	<div class="form-group has-feedback col-sm-12" >
 		<label for="contact_message"><?php echo ucfirst($this->lang->line('message'))?>:</label>
-		<textarea class="form-control" rows="5" placeholder="<?php echo ucfirst($this->lang->line('enter_message'))?>" id="contact_message"></textarea>
+		<textarea class="form-control" rows="5" placeholder="<?php echo ucfirst($this->lang->line('enter_message'))?>" id="contact_message"><?php echo set_value('message')?></textarea>
+		<span class="required-server"><?php echo form_error('message')?></span>
 	</div>
+	<div class="form-group">
+    <label for="captcha"><?php echo $captcha['image']; ?></label>
+    <br>
+	    <input type="text" autocomplete="off" name="userCaptcha" placeholder="Enter above text" value="<?php if(!empty($userCaptcha)){ echo $userCaptcha;} ?>" />
+	    <span class="required-server"><?php echo form_error('userCaptcha','<p style="color:#F83A18">','</p>'); ?></span> 
+    </div>
 	<button type="submit" id="submit_button" class="btn btn_default"><?php echo ucfirst($this->lang->line('submit'))?></button>
 </form>

@@ -1,6 +1,7 @@
 .DS_Store
 
 application/config/database.php
+captcha/*
 
 application/cache/*
 assets/themes/default/css/.sass-cache/*
@@ -29,5 +30,6 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-workspace
 *.sublime-project
 *.scssc
+/application/config/email.php
 /assets/themes/default/css/main.css.map
 /assets/themes/default/css/main.css.map
