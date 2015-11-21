@@ -311,15 +311,13 @@ table.table-pieces tbody tr td {
     table.table-pieces tbody tr td a:focus {
       text-decoration: none; }
 
-.small-form-group .form-control {
-  width: 400px; }
-
 form.contact_form .btn {
   width: 320px;
   height: 70px;
   background-color: #1abc9c;
   font: 1em "Josefin Sans";
-  color: #fff; }
+  color: #fff;
+  margin-left: 15px; }
   form.contact_form .btn:active {
     background-color: #16A287; }
   form.contact_form .btn:focus {
@@ -332,5 +330,15 @@ form.contact_form .btn {
 #submit_button:active {
   box-shadow: none;
   background-color: #16A287; }
+
+.has-feedback .form-control-feedback {
+  position: absolute;
+  top: 3px;
+  right: 15px;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 50px;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

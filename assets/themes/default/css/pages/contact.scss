@@ -1,13 +1,10 @@
-.small-form-group .form-control {
-	width: 400px;
-}
-
 form.contact_form .btn {
 	width: 320px;
 	height: 70px;
 	background-color: $btn-bg-color;
 	font: 1em $main-font;
 	color: #fff;
+	margin-left: 15px;
 
 	&:active {
 		background-color: #16A287;
@@ -28,7 +25,13 @@ form.contact_form .btn {
 	background-color: #16A287;
 }
 
-// .contact_form button:focus {
-// 	outline: none;
-// 	outline-offset: 0px;
-// }
+.has-feedback .form-control-feedback {
+    position: absolute;
+    top: 3px;
+    right: 15px;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 50px;
+    text-align: center;
+}

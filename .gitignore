@@ -30,3 +30,4 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 *.scssc
 /assets/themes/default/css/main.css.map
+/assets/themes/default/css/main.css.map
