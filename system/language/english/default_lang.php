@@ -24,6 +24,11 @@
 	$lang['message'] = "message";
 	$lang['submit'] = "submit";
 	$lang['enter_message'] = "Enter your message here!";
+	$lang['email_success'] = "Your email has been successfully sent!";
+	$lang['email_failure'] = "Your email has not been successfully sent. Please check your details.";
+	$lang['email_error'] = "Your email has not been successfully sent. Please try again later.";
+	$lang['success'] = "success";
+	$lang['error'] = "error";
 
 	// Error messages
 	$lang['no_results_found'] = "No results found";

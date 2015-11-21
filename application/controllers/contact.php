@@ -20,6 +20,18 @@ class contact extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->template->load('default','contact');
+		if($this->input->server('REQUEST_METHOD') == 'POST'){
+			$this->load->library('email');
+
+			$this->email->from($this->input->post('email'),$this->input->post('name'));
+			$this->email->to('bryan@bryonics.com');
+			$this->email->cc('maryanne.nghc@gmail.com');
+			$this->email->subject('Message from Musicalysis!');
+			$this->email->message($this->input->post('message'));
+			$data['success'] = $this->email->send();
+			$this->template->load('default','contact',$data);
+		}else{
+			$this->template->load('default','contact');
+		}
 	}
 }
