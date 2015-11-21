@@ -29,6 +29,7 @@ class contact extends CI_Controller {
 			$this->email->subject('Message from Musicalysis!');
 			$this->email->message($this->input->post('message'));
 			$data['success'] = $this->email->send();
+			echo $this->email->print_debugger();
 			$this->template->load('default','contact',$data);
 		}else{
 			$this->template->load('default','contact');
