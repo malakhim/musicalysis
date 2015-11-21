@@ -9,8 +9,21 @@
     		</div>
     	</div>
 	</div>
-    <div class="main_CTA">
+<!-- 	<div class="CTA_buttons"> -->
+	    <div class="main_CTA">
+    	<a href="/pieces">
+    	<div class="CTA_btn left">
+    		<div class="CTA_text">Listen</div>
+    	</div>
+    	</a>
+    	<a href="/about">
+    	<div class="CTA_btn right">
+    		<div class="CTA_text">Learn More</div>
+    	</div>
+    	</a>
+    	</div>
+<!--     <div class="main_CTA">
     	<a href="/pieces"><div class="CTA_btn left">Listen</div></a>
     	<a href="/about"><div class="CTA_btn right">Learn More</div></a>
-    </div>
+    </div> -->
 </div>
