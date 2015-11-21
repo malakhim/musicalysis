@@ -62,6 +62,14 @@ a{
 		border: 0;
 		background-image: none;
 	}
+	&:focus{
+		background-color: $btn-bg-color-active;
+		border-color: none;
+	}
+	&:active:focus{
+		background-color: $btn-bg-color-active;
+		border-color: none;
+	}
 
 	
 }
