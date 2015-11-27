@@ -237,29 +237,37 @@ a {
   .CTA_btn {
     font: 0.8em "Josefin Sans"; } }
 @media (max-width: 1000px) {
+  .main_title {
+    font: 6em "Devonshire"; }
+
+  .main-content {
+    width: 80%;
+    padding-top: 20%; }
+
+  .main_text {
+    font: 3em "Josefin Sans";
+    margin-bottom: 40px; }
+
   .CTA_btn.left {
-    float: left;
-    height: 70px;
-    width: 20%;
-    margin-left: 29%; }
+    float: none;
+    height: 120px;
+    width: 45%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 20px; }
 
   .CTA_btn.right {
-    float: right;
-    height: 70px;
-    width: 20%;
-    margin-right: 29%; } }
-@media (max-width: 768px) {
-  .CTA_btn.left {
-    float: left;
-    height: 70px;
-    width: 24%;
-    margin-left: 24%; }
+    float: none;
+    height: 120px;
+    width: 45%;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+    margin-top: 20px; }
 
-  .CTA_btn.right {
-    float: right;
-    height: 70px;
-    width: 24%;
-    margin-right: 24%; } }
+  .CTA_text {
+    font-size: 3em; } }
 .about_main_container.about {
   position: absolute;
   left: 0;
