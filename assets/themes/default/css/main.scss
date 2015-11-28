@@ -36,12 +36,13 @@ body{
 }
 
 a{
-	color: #003399;
+	color: #fff;
 	background-color: transparent;
 	font-weight: normal;
 
 	&:hover {
 		text-decoration: none;
+		color: #fff;
 	}
 }
 

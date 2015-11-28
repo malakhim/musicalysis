@@ -98,33 +98,55 @@
 	width: 17%;
 }
 
-.CTA_btn.left {
+.CTA_btn {
+	height: 70px;
+	width: 17%;
+	margin-top:2%;
+	margin-bottom: 1%;
+	padding-top: 11px;
+	background-color: $btn-bg-color;
+	color: #fff;
+	text-align: center;
+	position: relative;
+
+	&.left {
 	float: left;
-	height: 70px;
-	width: 17%;
 	margin-left: 32%;
-	margin-top:2%;
-	margin-bottom: 1%;
-	padding-top: 11px;
-	background-color: $btn-bg-color;
-	color: #fff;
-	text-align: center;
-	position: relative;
+	}
+
+	&.right {
+		float: right;
+		margin-right: 32%;
+	}
 }
+
+// .CTA_btn.left {
+// 	float: left;
+// 	height: 70px;
+// 	width: 17%;
+// 	margin-left: 32%;
+// 	margin-top:2%;
+// 	margin-bottom: 1%;
+// 	padding-top: 11px;
+// 	background-color: $btn-bg-color;
+// 	color: #fff;
+// 	text-align: center;
+// 	position: relative;
+// }
 	
-.CTA_btn.right {
-	float: right;
-	height: 70px;
-	width: 17%;
-	margin-right: 32%;
-	margin-top:2%;
-	margin-bottom: 1%;
-	padding-top: 11px;
-	background-color: $btn-bg-color;
-	color: #fff;
-	text-align: center;
-	position: relative;
-}
+// .CTA_btn.right {
+// 	float: right;
+// 	height: 70px;
+// 	width: 17%;
+// 	margin-right: 32%;
+// 	margin-top:2%;
+// 	margin-bottom: 1%;
+// 	padding-top: 11px;
+// 	background-color: $btn-bg-color;
+// 	color: #fff;
+// 	text-align: center;
+// 	position: relative;
+// }
 .CTA_btn:hover {
 	background-color: $btn-bg-color-hover;
 	text-decoration: none;
