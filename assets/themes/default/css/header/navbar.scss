@@ -49,6 +49,13 @@
 #logo {
 	font-size: 2em;
 	padding-top: 28px;
+
+	@media screen 
+	and (orientation: portrait) 
+	and (max-width: 500px) {
+		padding-top: 0;
+		font: 2em $logo-font;
+		}
 }
 
 .btn {
@@ -66,13 +73,21 @@
     .navbar-left,.navbar-right {
         float: none !important;
     }
-    .navbar-toggle {
+    .navbar-default .navbar-toggle {
         display: block;
         border-width: 0;
+
+    	&:hover {
+    	background-color: transparent;
+    	}
+    }
+
+    .navbar-header .navbar-toggle.collapsed:hover .icon-bar {
+    background-color: #fff;
     }
 
     .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #888;
 	}
 
     .navbar-collapse {
@@ -101,7 +116,7 @@
   		display:block !important;
 	}
 	.navbar-header .navbar-toggle.collapsed {
-		padding-top: 20px;
+		margin-top: 20px;
 	}
 }
 

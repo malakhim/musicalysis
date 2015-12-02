@@ -94,6 +94,10 @@ a {
 #logo {
   font-size: 2em;
   padding-top: 28px; }
+  @media screen and (orientation: portrait) and (max-width: 500px) {
+    #logo {
+      padding-top: 0;
+      font: 2em "Devonshire"; } }
 
 .btn {
   font-size: 16px; }
@@ -108,12 +112,17 @@ a {
   .navbar-left, .navbar-right {
     float: none !important; }
 
-  .navbar-toggle {
+  .navbar-default .navbar-toggle {
     display: block;
     border-width: 0; }
+    .navbar-default .navbar-toggle:hover {
+      background-color: transparent; }
+
+  .navbar-header .navbar-toggle.collapsed:hover .icon-bar {
+    background-color: #fff; }
 
   .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff; }
+    background-color: #888; }
 
   .navbar-collapse {
     border-top: 1px solid transparent;
@@ -141,7 +150,7 @@ a {
     display: block !important; }
 
   .navbar-header .navbar-toggle.collapsed {
-    padding-top: 20px; } }
+    margin-top: 20px; } }
 @media (min-width: 360px) {
   .container {
     width: 95%; } }
@@ -195,36 +204,36 @@ a {
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover; }
+  @media screen and (orientation: portrait) and (max-width: 500px) {
+    .home_main_container {
+      background-image: url("/assets/images/Homebackground6mobile.jpg"); } }
 
 .main-content {
   width: 60%;
   margin: 0 auto;
   padding-top: 7%; }
-  @media (max-width: 1000px) {
+  @media (max-width: 500px) {
     .main-content {
       width: 80%;
-      padding-top: 20%; } }
+      padding-top: 30%; } }
 
 .main_title {
   font: 4em "Devonshire";
   margin: auto;
   text-align: center;
   padding-top: 15%; }
-  @media screen and (orientation: portrait) and (max-width: 1000px) {
+  @media only screen and (max-width: 500px) and (orientation: portrait) {
     .main_title {
       padding-top: 8%;
-      font: 6em "Devonshire"; } }
-  @media screen and (orientation: landscape) and (max-width: 1000px) {
-    .main_title {
-      padding-top: 0; } }
+      font: 2.5em "Devonshire"; } }
 
 .main_text {
   font: 1.7em "Josefin Sans";
   text-align: center;
   margin-top: 1%; }
-  @media (max-width: 1000px) {
+  @media (max-width: 500px) {
     .main_text {
-      font: 2em "Josefin Sans";
+      font: 1.2em "Josefin Sans";
       margin-bottom: 40px; } }
 
 .bold_text {
@@ -234,6 +243,10 @@ a {
   width: 600px;
   margin-left: auto;
   margin-right: auto; }
+  @media only screen and (max-width: 500px) and (orientation: portrait) {
+    .main_CTA {
+      width: 90%;
+      font: 2.5em "Devonshire"; } }
 
 .CTA_btn {
   border-radius: 4px;
@@ -253,11 +266,11 @@ a {
     float: left; }
   .CTA_btn.right {
     float: right; }
-  @media screen and (max-width: 1000px) and (orientation: portrait) {
+  @media screen and (max-width: 500px) and (orientation: portrait) {
     .CTA_btn.left, .CTA_btn.right {
       float: none;
-      height: 100px;
-      width: 45%;
+      height: 60px;
+      width: 50%;
       display: block;
       margin-bottom: 30px;
       margin-top: 20px; } }
@@ -280,11 +293,14 @@ a {
 .CTA_text {
   display: inline;
   position: absolute;
-  font-size: 1.5em;
+  font: 1.5em "Josefin Sans";
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%; }
+  @media only screen and (max-width: 500px) and (orientation: portrait) {
+    .CTA_text {
+      font: 0.6em "Josefin Sans"; } }
   .CTA_text:hover {
     text-decoration: none;
     background-color: #1FE1BA; }

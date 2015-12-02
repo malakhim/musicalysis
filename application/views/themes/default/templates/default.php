@@ -4,6 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');?>
 <html lang="en" class="<?php echo $template_name?>">
     <head>
     	<meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title><?php echo $title; ?></title>
     	<?php echo script_tag('https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')?>
 
